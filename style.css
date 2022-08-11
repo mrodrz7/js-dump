@@ -1,0 +1,13 @@
+* {
+    background: rgb(83, 83, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    border-radius: 8px;
+    background-color: rgb(219, 219, 219);
+}
+
+h1, p {
+    text-align: center;
+}

@@ -6,7 +6,7 @@ const button = document.querySelector('button');
 // once user creates input, an alert with a new message appears
 function greet() {
     const name = prompt('What\'s your name friend?');
-    alert(`Hello ${name}, welcome to this useless page of JS tidbits!`);
+    alert(`Hello ${name}, welcome to this random page of JS tidbits!`);
 };
 
 // chains an event listener to variable 'button'
