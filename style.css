@@ -1,5 +1,4 @@
 * {
-    background: rgb(83, 83, 212);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,4 +9,9 @@ button {
 
 h1, p {
     text-align: center;
+}
+.container{
+    margin-top: 10px;
+    background-color: aliceblue;
+    padding: 10px;
 }
