@@ -37,3 +37,30 @@ function getRandomNumber(){
   return Math.floor(Math.random() * hex.length);
 }
 //End
+
+//Number counter script start
+let add = document.querySelector('#add')//attaches variable to button with id of add
+let subtract = document.querySelector('#subtract')//attaches variable to button with id of subtract
+let reset = document.querySelector('#reset')//attaches variable to button with id of reset
+
+add.addEventListener('click', function(){ //tells the program to listen for the click before executing function
+    let output = document.querySelector('#output'); //the tag with the id of output will be called
+    let result = Number(output.innerText) + 1; //lets the program know to increase output by 1 upon execution
+
+    output.innerText = result;
+});
+
+subtract.addEventListener('click', function(){//tells the program to listen for the click before executing function
+    let output = document.querySelector('#output');//the tag with the id of output will be called
+    let result = Number(output.innerText) - 1;//lets the program know to decrease output by 1 upon execution
+
+    output.innerText = result;
+});
+
+reset.addEventListener('click', function(){//tells the program to listen for the click before executing function
+    let output = document.querySelector('#output');//the tag with the id of output will be called
+    let result = 0; //resets output value back to 0
+
+    output.innerText = result; 
+});
+//End
