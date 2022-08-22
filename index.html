@@ -22,9 +22,13 @@
     </span></h4>
     <button class="btn btn-hero" id="btn">click me</button>
 </div>
+
     <br>
 
 <div class="date-button">
+=======
+<br>
+    <div class="date-button">
 <h3>Check the current date and time:</h3>
 <div class="date-btn">
     <!--Script for the date button was written in the buttons attributes internally as opposed to externally like with the other buttons-->
@@ -33,6 +37,7 @@
 <button type="button"
 onclick="document.getElementById('date').innerHTML = Date()">
 Click here</button>
+
 
 <p id="date"></p>
 </div>
@@ -65,6 +70,23 @@ Click here</button>
     </div> 
     </div>
 
+<p id="date"></p>
+</div>
+<br>
+</div>
+
+<br>
+
+<!--The Below button is showcasing how JS can be used to change HTML code by calling the '.innerHTML' and targeting an element by its corresponding id-->
+<div class="text-btn">
+    <h3>Change the text:</h3>
+    <button id="text-change" type="button" onclick='document.getElementById("text").innerHTML = "Hello there!"' >
+        CLICK HERE
+    </button>
+<p id="text">
+        This is the text that will be changed...
+    </p>
+</div>
     
     <script src="script.js"></script>
 </body>
